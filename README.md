@@ -1,4 +1,4 @@
-# aor-parseserver-client
+# ra-parseserver-client
 
 An [admin-on-rest](https://github.com/marmelab/admin-on-rest) client for [Parse Server](https://github.com/ParsePlatform/parse-server).
 
@@ -16,9 +16,9 @@ npm install aor-parseserver-client --save
 ```js
 // in src/App.js
 import React from 'react';
-import { Admin, Resource } from 'admin-on-rest';
+import { Admin, Resource } from 'react-admin';
 import { PostList } from './posts';
-import { RestClient } from 'aor-parseserver-client';
+import { RestClient } from 'ra-parseserver-client';
 
 const parseConfig = {
 	URL : 'https://my-app-url.com/parse',
@@ -39,8 +39,8 @@ export default App;
 ### As a standalone function
 ```js
 import React from 'react';
-import { RestClient } from 'aor-parseserver-client';
-import { showNotification } from 'admin-on-rest';
+import { RestClient } from 'ra-parseserver-client';
+import { showNotification } from 'react-admin';
 
 const parseConfig = {
 	URL : 'https://my-app-url.com/parse',
