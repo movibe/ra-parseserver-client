@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/sen0va/ra-parseserver-client#readme",
   "dependencies": {
-    "react-admin": "^2.0.0",
+    "react-admin": "^2.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",
